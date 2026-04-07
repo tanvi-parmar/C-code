@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{       int x,y,ch;
+	clrscr();
+	printf("1=addition");
+	scanf("%d",&ch);
+	printf("2=substraction");
+	scanf("%d",&ch);
+	printf("3=multiplication");
+	scanf("%d",&ch);
+	printf("4=division");
+	scanf("5"):
+	if(x==y)
+	{
+		 printf("both are equle values");
+	}
+	else
+	{       if(x>y)
+		{
+		printf("x is maximum value");
+		}
+		else
+		{
+		printf("y is maximum value");
+		}
+
+	}
+	getch();
+	return 0;
+
+}
